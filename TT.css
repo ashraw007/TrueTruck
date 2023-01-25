@@ -1,0 +1,94 @@
+#waybill{
+    border: 1px solid black;
+    justify-content: center; 
+    border: none;
+}
+
+#no-border-box{
+    text-align: center;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-left: 0px solid black;
+    border-bottom: 0px solid black;
+}
+
+#no-upper-border-box{
+    border: none;
+}
+
+#no-lower-border-box{
+    border: none;
+}
+
+#box{
+    border: 1px solid black;
+}
+
+#left-box{
+    border: none;
+    border-left: 1px solid black;
+}
+
+#right-box{
+    border: none;
+    border-right: 0px solid black;
+    border-left: 0px solid black;
+}
+
+#box1{
+    border-bottom: 0px solid black;
+    text-align: center;
+}
+
+#img-box{
+    margin-top: 50px;
+}
+
+#waybillbox{
+    text-align: center;
+    border: none;
+    width: 50%;
+    height: 15%;
+}
+
+#box3{
+    text-align: center;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-left: 0px solid black;
+}
+
+#box4{
+    text-align: center;
+    border-top: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 0px solid black;
+    border-left: 0px solid black;
+}
+
+#box6{
+    text-align: center;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
+    border-right: 0px solid black;
+}
+
+#vertical{
+    height: 110px;
+    position: absolute;
+    top: 0;
+    margin-left: 100px;
+}
+
+
+#booking-date{
+    border: none;
+}
+
+#booking-time{
+    border: none;
+}
+
+#expected-delivery-date{
+    border: none;
+}
