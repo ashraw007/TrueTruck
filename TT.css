@@ -1,11 +1,10 @@
 #waybill{
     border: 1px solid black;
-    justify-content: center; 
+    /* justify-content: center;  */
     border: none;
 }
 
 #no-border-box{
-    text-align: center;
     border-top: 0px solid black;
     border-right: 0px solid black;
     border-left: 0px solid black;
@@ -41,11 +40,10 @@
 }
 
 #img-box{
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 #waybillbox{
-    text-align: center;
     border: none;
     width: 50%;
     height: 15%;
@@ -72,13 +70,13 @@
     border-bottom: 0px solid black;
     border-right: 0px solid black;
 }
-
+/* 
 #vertical{
     height: 110px;
     position: absolute;
     top: 0;
-    margin-left: 100px;
-}
+    margin-left: -200px;
+} */
 
 
 #booking-date{
@@ -91,4 +89,17 @@
 
 #expected-delivery-date{
     border: none;
+}
+
+#download{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(83, 140, 247);
+    color: white;
+    border: none;
+}
+
+#download:hover{
+    border: 1px solid black;
+    background-color: rgb(39, 108, 235);
 }
